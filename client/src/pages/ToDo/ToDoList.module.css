@@ -1,0 +1,117 @@
+/* Wrapper for the entire to-do list section */
+.toDoWrapper {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the content */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for aesthetic */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Header section for the to-do list */
+  .toDoHeader {
+    display: flex;
+    justify-content: space-between; /* Spreads the content */
+    align-items: center; /* Vertically centers items */
+    margin-bottom: 1.5rem; /* Spacing between header and rest of the content */
+  }
+  
+  /* Styling for the h2 header text */
+  .toDoHeader h2 {
+    font-size: 1.8rem;
+    color: #333; /* Darker color for readability */
+    font-weight: bold;
+  }
+  
+  /* Search input styling */
+  .toDoHeader input {
+    border-radius: 25px; /* Rounded edges for input */
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc; /* Light border */
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  .toDoHeader button {
+    background-color: #7054d3; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .toDoHeader button:hover {
+    background-color: #593bb5; /* Slightly darker on hover */
+  }
+  
+  /* Divider styling */
+  .ant-divider {
+    margin: 1.5rem 0;
+    border-color: #eaeaea; /* Lighter divider */
+  }
+  
+  /* Modal inputs styling */
+  .ant-modal-input {
+    width: 100%; /* Full width for the modal inputs */
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  /* Modal textarea */
+  .ant-input-textarea {
+    border-radius: 10px; /* Consistent with other inputs */
+    font-size: 1rem;
+    padding: 0.75rem;
+    min-height: 100px; /* Taller for description field */
+  }
+  
+  /* Task list grid styling */
+  .taskList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    margin-top: 2rem; /* Space above the list */
+  }
+  
+  /* Task card styling */
+  .taskCard {
+    background-color: #fff; /* White background for the cards */
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for elevation */
+    transition: transform 0.2s ease; /* Animation for hover effect */
+    cursor: pointer;
+  }
+  
+  .taskCard:hover {
+    transform: scale(1.05); /* Slight scaling on hover */
+  }
+  
+  /* Title inside the task card */
+  .taskCard h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Description inside the task card */
+  .taskCard p {
+    color: #666; /* Subtle text color */
+    font-size: 1rem;
+  }
+  
+  /* No tasks found message */
+  .noTasksMessage {
+    font-size: 1.2rem;
+    color: #999;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  

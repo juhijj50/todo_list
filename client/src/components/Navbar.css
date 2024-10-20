@@ -1,0 +1,95 @@
+/* Navbar Styles */
+header {
+    background-color: #f9f9f9; /* Match landing background */
+    padding: 10px 20px; /* Reduced padding for a shorter navbar */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    border-bottom: 2px solid #eaeaea; /* Subtle bottom border */
+    height: 60px; /* Fixed height for consistency */
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    height: 40px; /* Logo height */
+    margin-right: 10px;
+    border-radius: 10%; /* Slight rounding for the logo */
+}
+
+.logo-wrapper h4 {
+    font-size: 1.5rem; /* Reduced font size for a more compact look */
+    font-weight: bold;
+    color: #333; /* Logo text color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.logo-wrapper h4:hover {
+    color: rgb(112, 116, 178); /* Change color on hover */
+}
+
+/* Updated navbar class */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ensure content is spaced out */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width */
+}
+
+/* Navigation menu flex container */
+.navigation-menu {
+    display: flex; /* Horizontal list */
+    gap: 20px; /* Space between items */
+    margin-left: auto; /* Pushes navigation items to the right */
+    align-items: center; /* Center items vertically */
+}
+
+/* List items in the navigation menu */
+.navigation-menu li {
+    list-style: none; /* Removes bullet points */
+}
+
+/* Navigation links */
+.navigation-menu a {
+    text-decoration: none; /* Removes underline */
+    font-size: 1rem; /* Font size for links */
+    color: #333; /* Link text color */
+    padding: 8px 16px; /* Padding for a compact look */
+    border-radius: 25px; /* Rounded button effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    border: none; /* Remove default border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Hover effect for links */
+.navigation-menu a:hover {
+    background-color: rgb(112, 116, 178); /* Background on hover */
+    color: white; /* Text color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.activeNav {
+    background-color: rgb(112, 116, 178); /* Active link background color */
+    color: #fff; /* Active link text color */
+    border-radius: 25px; /* Rounded corners */
+    transform: translateY(-2px); /* Slight lift effect for active link */
+}
+
+/* User info navigation styles */
+.userInfoNav {
+    display: flex; /* Aligns avatar and text in a row */
+    align-items: center; /* Center align vertically */
+    gap: 8px; /* Space between avatar and text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* User avatar image styles */
+.userInfoNav img {
+    height: 30px; /* Avatar height */
+    border-radius: 50%; /* Circular avatar */
+    border: 1px solid #eaeaea; /* Light border around avatar */
+}

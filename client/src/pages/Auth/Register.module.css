@@ -1,0 +1,45 @@
+/* Register.module.css */
+
+/* Wrapper for the entire Register component */
+.Register_card {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    max-width: 400px; /* Maximum width for the card */
+    margin: 50px auto; /* Center the card with margin */
+    text-align: center; /* Center align text */
+}
+
+/* Image styling */
+.Register_card img {
+    max-width: 80%; /* Adjusted to 80% to make it smaller */
+    max-height: 150px; /* Set a maximum height for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Heading styling */
+.Register_card h4 {
+    font-size: 1.8rem; /* Font size for the heading */
+    color: #333; /* Heading color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Input wrapper for spacing */
+.input_wrapper {
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+/* Ant Design Input styling */
+.input_wrapper .ant-input {
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #e0e0e0; /* Light border color */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+/* Focus effect for inputs */
+.input_wrapper .ant-input:focus {
+    border-color: rgb(112, 116, 178); /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(112, 116, 178, 0.5); /* Shadow effect on focus */
+}
